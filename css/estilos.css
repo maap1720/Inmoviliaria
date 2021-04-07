@@ -1,0 +1,122 @@
+#menu {
+    height: 50px;
+}
+
+#menu ul {
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+}
+
+.item {
+    height: 150px;
+}
+
+.lateral {
+    height: 250px;
+}
+
+.lateral>div {
+    height: calc(250px/3);
+}
+
+footer {
+    background: #16a085;
+    color: #fff;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    padding: 2rem;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li a {
+    color: aliceblue;
+}
+
+@media (max-width:768px) {
+    #menu {
+        height: auto;
+    }
+}
+
+#slider {
+    height: 650px;
+    overflow: hidden;
+}
+
+#slider img {
+    height: 650px;
+    width: 100%;
+    margin: 0;
+}
+
+#icon1 {
+    display: flex;
+    float: right;
+    width: 45px;
+    height: 45px;
+}
+
+#icon2:hover {
+    background-color: rgb(42, 106, 179);
+    border: 1px solid white;
+}
+
+#icon3:hover {
+    background-color: rgb(192, 39, 39);
+    border: 1px solid white;
+}
+
+.iconos {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid rgb(126, 126, 126);
+}
+
+#vermas {
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    font-family: monospace;
+    color: rgb(42, 113, 184);
+}
+
+#mas {
+    border: none;
+    padding: 0;
+}
+
+button.bg-light:hover {
+    background-color: transparent!important;
+}
+
+#migaja2 {
+    background-color: transparent;
+}
+
+#migaja2 li a:hover {
+    text-decoration: none;
+}
+
+#bot1 {
+    background-color: #0063a5;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#bot1:hover {
+    background-color: rgb(77, 76, 76);
+    color: ghostwhite;
+    transition: background 1s color 1s;
+    border: floralwhite 1px solid;
+}
+
+#terminos {
+    color: orangered;
+}
